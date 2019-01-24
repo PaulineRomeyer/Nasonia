@@ -40,7 +40,7 @@ See respective README's for more detailed information of each step.
 
 Clone me: 
 ```
-git clone https://github.com/paulineromeyer/Nasonia.git ???????????
+git clone https://github.com/paulineromeyer/Nasonia.git
 ```
 
 ![rug](https://www.rug.nl/_definition/shared/images/logo--en.png)
