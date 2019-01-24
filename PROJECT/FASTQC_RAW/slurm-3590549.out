@@ -1,0 +1,73 @@
+Failed to process RESULTS/MB18_sub_S8_R1_001.fastq.gz
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: Midline '' didn't start with '+'
+	at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:172)
+	at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:89)
+	at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:104)
+	at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:62)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunner.java:122)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.java:95)
+	at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:308)
+Started analysis of MB89_sub_S13_R1_001.fastq.gz
+Approx 10% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 20% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 30% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 40% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 50% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 60% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 70% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 80% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 90% complete for MB89_sub_S13_R1_001.fastq.gz
+Approx 100% complete for MB89_sub_S13_R1_001.fastq.gz
+Analysis complete for MB89_sub_S13_R1_001.fastq.gz
+Started analysis of MB89_sub_S13_R2_001.fastq.gz
+Approx 10% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 20% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 30% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 40% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 50% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 60% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 70% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 80% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 90% complete for MB89_sub_S13_R2_001.fastq.gz
+Approx 100% complete for MB89_sub_S13_R2_001.fastq.gz
+Analysis complete for MB89_sub_S13_R2_001.fastq.gz
+../MULTIQC/DATA/.: No such file or directory
+Submitted batch job 3590551
+
+
+###############################################################################
+Peregrine Cluster
+Job 3590549 for user 'p285088'
+Finished at: Fri Jan 25 00:21:10 CET 2019
+
+Job details:
+============
+
+Name                : nasonia_fastq
+User                : p285088
+Partition           : regular
+Nodes               : pg-node020
+Cores               : 2
+State               : COMPLETED
+Submit              : 2019-01-25T00:21:01
+Start               : 2019-01-25T00:21:01
+End                 : 2019-01-25T00:21:10
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:00:09
+Used CPU time       :   00:00:07 (efficiency: 44.20%)
+% User (Computation): 91.82%
+% System (I/O)      :  8.17%
+Mem reserved        : 4000M/node
+Max Mem used        : 0.00  (pg-node020)
+Max Disk Write      : 0.00  (pg-node020)
+Max Disk Read       : 0.00  (pg-node020)
+
+
+Acknowledgements:
+=================
+
+Please see this page if you want to acknowledge Peregrine in your publications:
+
+https://redmine.hpc.rug.nl/redmine/projects/peregrine/wiki/ScientificOutput
+
+################################################################################

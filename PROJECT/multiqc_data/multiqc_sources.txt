@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	MB89_sub_S13_R2_001	/run/user/1000/gvfs/sftp:host=peregrine.hpc.rug.nl,user=p285088/data/p285088/Nasonia/PROJECT/FASTQC_RAW/RESULTS/MB89_sub_S13_R2_001_fastqc.zip
+FastQC	all_sections	MB89_sub_S13_R1_001	/run/user/1000/gvfs/sftp:host=peregrine.hpc.rug.nl,user=p285088/data/p285088/Nasonia/PROJECT/FASTQC_RAW/RESULTS/MB89_sub_S13_R1_001_fastqc.zip
+FastQC	all_sections	MB89_R1_paired	/run/user/1000/gvfs/sftp:host=peregrine.hpc.rug.nl,user=p285088/data/p285088/Nasonia/PROJECT/FASTQC_TRIM/RESULTS/MB89_R1_paired_fastqc.zip
+FastQC	all_sections	MB89_R2_paired	/run/user/1000/gvfs/sftp:host=peregrine.hpc.rug.nl,user=p285088/data/p285088/Nasonia/PROJECT/FASTQC_TRIM/RESULTS/MB89_R2_paired_fastqc.zip
