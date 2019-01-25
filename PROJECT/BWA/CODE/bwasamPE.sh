@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=BWAmem_job_PE
-#SBATCH --time=00:30:00
+#SBATCH --time=1-00:00:00
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4000
 #SBATCH --partition=short
