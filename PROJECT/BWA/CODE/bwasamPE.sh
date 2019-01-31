@@ -31,10 +31,8 @@ ref_fai=/data/p285088/Nasonia/PROJECT/DATA/Nvit_2.1_rna.fna.fai
  
 for dir in MB*; do 
 	cd $dir # move to each folder
-	bwa mem $ref *R1* > "$dir"_R1.sai; #perform bwa mem to output .sai files with the name of var.
-	bwa mem $ref *R2* > "$dir"_R2.sai; #perform bwa mem to output .sai files with the name of var.
-	bwa sampe $ref *_R1.sai *_R2.sai *_R1_*.fastq.gz *_R2_*.fastq.gz > "$dir"_PE.bwa.sam; #perform bwa sampe on PAIRED ends --> .sam
-	samtools import $ref_fai *_PE.bwa.sam > "$dir"_PE.bwa.bam; # sam --> bam
+	bwa mem -M -R '@RG\tID:sample_$dir\tLB:sample_$dir\tPL:ILLUMINA\tPM:HISEQ\tSM:sample_$dir' $ref *R1* *R2* > "$dir"_PE.bwa.sam; #perform bwa mem on PAIRED ends --> .sam
+	samtools view -b *_PE.bwa.sam > "$dir"_PE.bwa.bam; # sam --> bam
 	samtools sort *_PE.bwa.bam > "$dir"_PE.bwa.sorted.bam; #bam --> sorted.bam
 	samtools index *_PE.bwa.sorted.bam; #sorted.bam --> indexed bam
   mv *_PE.bwa.sorted.bam /data/p285088/Nasonia/PROJECT/BWA/RESULTS/;
